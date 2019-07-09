@@ -1,0 +1,16 @@
+<html>
+ <img id='myimg' src='thor.jpg' width=450
+    px> <!-- or marval.jpg -->
+</html>
+<html>
+<button onclick="switchIt('thor.jpg')">Thor</button>
+<button onclick="switchIt('marval.jpg')">Captain Marvel</button>
+</html>    
+    
+    <script>
+ function switchIt(image) {
+ var imgdoc = document.getElementById('myimg')
+ imgdoc.src = image; <!-- set <img> src attribute -->
+ }
+</script>
+    
